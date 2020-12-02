@@ -68,8 +68,74 @@ class _HomePageState extends State<HomePage> {
             ),
 
             // The body of the drawer
-            ListTile(
-              title: Text('Home'),
+
+            // The Home-Button
+            InkWell(
+              onTap: () {},
+              child: ListTile(
+                title: Text('Home'),
+                leading: Icon(
+                  Icons.home,
+                  color: Colors.red,
+                ),
+              ),
+            ),
+
+            // The MyAccount-Button
+            InkWell(
+              onTap: () {},
+              child: ListTile(
+                title: Text('My Account'),
+                leading: Icon(
+                  Icons.person,
+                  color: Colors.red,
+                ),
+              ),
+            ),
+
+            // The Categories Button
+            InkWell(
+              onTap: () {},
+              child: ListTile(
+                title: Text('Categories'),
+                leading: Icon(
+                  Icons.dashboard,
+                  color: Colors.red,
+                ),
+              ),
+            ),
+
+            // The Bookmarks Button
+            InkWell(
+              onTap: () {},
+              child: ListTile(
+                title: Text('Bookmarks'),
+                leading: Icon(
+                  Icons.favorite,
+                  color: Colors.red,
+                ),
+              ),
+            ),
+
+            // A Divider
+            const Divider(),
+
+            // The Settings Button
+            InkWell(
+              onTap: () {},
+              child: ListTile(
+                title: Text('Settings'),
+                leading: Icon(Icons.settings),
+              ),
+            ),
+
+            // The About-Button
+            InkWell(
+              onTap: () {},
+              child: ListTile(
+                title: Text('About'),
+                leading: Icon(Icons.help),
+              ),
             ),
           ],
         ),
