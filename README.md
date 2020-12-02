@@ -1,4 +1,3 @@
 # Visionizer
 
-An app made using Flutter that allows you to rate your teachers.
-"# Visionizer"
+This application allows you to find the perfect school and rate your teachers.
