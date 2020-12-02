@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75a6f8f1-dec8-4e47-930f-3755e76ef6f3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ProjectId" id="1l6c5tY738jJVLiscoYwj29QVir" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75a6f8f1-dec8-4e47-930f-3755e76ef6f3" name="Default Changelist" comment="" />
+      <created>1606920801931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606920801931</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="254" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606920996052">
+      <screen x="74" y="0" width="1846" height="1200" />
+    </state>
+    <state x="451" y="254" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.0.1846.1200/-1858.-157.1858.1080@74.0.1846.1200" timestamp="1606920996052" />
+    <state x="93" y="642" width="1662" height="1016" key="AVDManager" timestamp="1606920945318">
+      <screen x="74" y="0" width="1846" height="1200" />
+    </state>
+    <state x="93" y="642" width="1662" height="1016" key="AVDManager/74.0.1846.1200/-1858.-157.1858.1080@74.0.1846.1200" timestamp="1606920945318" />
+    <state width="1803" height="334" key="GridCell.Tab.0.bottom" timestamp="1606920997463">
+      <screen x="74" y="0" width="1846" height="1200" />
+    </state>
+    <state width="1803" height="334" key="GridCell.Tab.0.bottom/74.0.1846.1200/-1858.-157.1858.1080@74.0.1846.1200" timestamp="1606920997463" />
+    <state width="1803" height="334" key="GridCell.Tab.0.center" timestamp="1606920997463">
+      <screen x="74" y="0" width="1846" height="1200" />
+    </state>
+    <state width="1803" height="334" key="GridCell.Tab.0.center/74.0.1846.1200/-1858.-157.1858.1080@74.0.1846.1200" timestamp="1606920997463" />
+    <state width="1803" height="334" key="GridCell.Tab.0.left" timestamp="1606920997463">
+      <screen x="74" y="0" width="1846" height="1200" />
+    </state>
+    <state width="1803" height="334" key="GridCell.Tab.0.left/74.0.1846.1200/-1858.-157.1858.1080@74.0.1846.1200" timestamp="1606920997463" />
+    <state width="1803" height="334" key="GridCell.Tab.0.right" timestamp="1606920997463">
+      <screen x="74" y="0" width="1846" height="1200" />
+    </state>
+    <state width="1803" height="334" key="GridCell.Tab.0.right/74.0.1846.1200/-1858.-157.1858.1080@74.0.1846.1200" timestamp="1606920997463" />
+    <state x="653" y="280" key="run.anything.popup" timestamp="1606920886332">
+      <screen x="74" y="0" width="1846" height="1200" />
+    </state>
+    <state x="653" y="280" key="run.anything.popup/74.0.1846.1200/-1858.-157.1858.1080@74.0.1846.1200" timestamp="1606920886332" />
+  </component>
+</project>
