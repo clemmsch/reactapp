@@ -1,0 +1,39 @@
+name: application
+description: Rate your teachers using this new application
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_pro: ^1.0.0
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+#flutter:
+#  uses-material-design: true
+#  assets:
+#    - assets/api/
+#    - assets/fonts/
+#    - assets/fonts/open_sans/
+#    - assets/locale/
+#    - assets/images/
+#    - assets/images/icons/
+#    - assets/images/icons/android/
+#    - assets/images/icons/ios/
+
+icapps_translations:
+  api_key: 'lIWZxNlOz3d461rVMeh3dw' #TODO Update this to the correct api key
+  default_language: 'nl'
+  languages: ['nl','en']
+
+icapps_license:
+  licenses:
+    moor_ffi: https://raw.githubusercontent.com/simolus3/moor/develop/moor_ffi/LICENSE
