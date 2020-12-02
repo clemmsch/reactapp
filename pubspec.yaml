@@ -17,17 +17,10 @@ dev_dependencies:
     sdk: flutter
 
 
-#flutter:
-#  uses-material-design: true
-#  assets:
-#    - assets/api/
-#    - assets/fonts/
-#    - assets/fonts/open_sans/
-#    - assets/locale/
-#    - assets/images/
-#    - assets/images/icons/
-#    - assets/images/icons/android/
-#    - assets/images/icons/ios/
+flutter:
+  uses-material-design: true
+  assets:
+    - img/
 
 icapps_translations:
   api_key: 'lIWZxNlOz3d461rVMeh3dw' #TODO Update this to the correct api key
