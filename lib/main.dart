@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:carousel_pro/carousel_pro.dart'
 
 void main(List<String> args) {
   runApp(MaterialApp(
@@ -18,6 +19,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       // Create the App-Bar
       appBar: new AppBar(
+        elevation: 0.1,
         backgroundColor: Colors.red,
         title: Text('Visionizer'),
         centerTitle: true,
@@ -125,7 +127,7 @@ class _HomePageState extends State<HomePage> {
               onTap: () {},
               child: ListTile(
                 title: Text('Settings'),
-                leading: Icon(Icons.settings),
+                leading: Icon(Icons.settings, color: Colors.blueAccent),
               ),
             ),
 
@@ -134,7 +136,7 @@ class _HomePageState extends State<HomePage> {
               onTap: () {},
               child: ListTile(
                 title: Text('About'),
-                leading: Icon(Icons.help),
+                leading: Icon(Icons.help, color: Colors.blueAccent),
               ),
             ),
           ],
