@@ -20,9 +20,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - images/c1.jpg
     - images/categories/Lock.png
     - images/categories/Bilingual.png
+    - images/debug/grg23.png
     
 
 icapps_translations:
