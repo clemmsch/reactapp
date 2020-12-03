@@ -20,7 +20,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - img/
+    - images/c1.jpg
+    - images/categories/Lock.png
+    
 
 icapps_translations:
   api_key: 'lIWZxNlOz3d461rVMeh3dw' #TODO Update this to the correct api key
