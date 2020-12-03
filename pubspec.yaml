@@ -22,6 +22,7 @@ flutter:
   assets:
     - images/c1.jpg
     - images/categories/Lock.png
+    - images/categories/Bilingual.png
     
 
 icapps_translations:

@@ -4,7 +4,7 @@ import 'package:carousel_pro/carousel_pro.dart';
 // Importing the components
 import 'package:application/components/horizontalListView.dart';
 import 'package:application/components/drawer.dart';
-import 'package:application/components/homepage.dart';
+import 'package:application/components/schools.dart';
 
 // The Main Function of the application (Runs the HomePage)
 void main(List<String> args) {
@@ -22,6 +22,11 @@ class HomePage extends StatefulWidget {
 
 // The State of the HomePage
 class _HomePageState extends State<HomePage> {
+  // VARIABLES
+  final TextStyle headerStyle =
+      new TextStyle(color: Colors.black, fontSize: 16);
+
+  // THE MAIN
   @override
   Widget build(BuildContext context) {
     Widget image_carousel = new Container(
@@ -84,13 +89,26 @@ class _HomePageState extends State<HomePage> {
           // Padding the Widgets
           new Padding(
               padding: const EdgeInsets.all(8.0),
+              // Setting the header "Categories"
               child: new Text(
                 'Categories',
+                style: headerStyle,
                 textAlign: TextAlign.center,
               )),
-
-          // The Horizontal List-View Begins here
           HorizontalList(),
+
+          new Padding(
+            padding: const EdgeInsets.all(15.0),
+            // Setting the header "Recent", this currently only shows the recent
+            child: new Text('Recent',
+                style: headerStyle, textAlign: TextAlign.center),
+          ),
+
+          // The Grid View
+          Container(
+            height: 320,
+            child: Schools(),
+          ),
         ],
       ),
     );

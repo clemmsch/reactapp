@@ -4,7 +4,7 @@ class HorizontalList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100,
+      height: 80,
       child: ListView(
         scrollDirection: Axis.horizontal,
         children: <Widget>[
@@ -14,15 +14,15 @@ class HorizontalList extends StatelessWidget {
           ),
           Category(
             imagePath: 'images/categories/Lock.png',
-            categoryName: 'Public',
+            categoryName: 'Private',
+          ),
+          Category(
+            imagePath: 'images/categories/Bilingual.png',
+            categoryName: 'Bilingual',
           ),
           Category(
             imagePath: 'images/categories/Lock.png',
-            categoryName: 'Public',
-          ),
-          Category(
-            imagePath: 'images/categories/Lock.png',
-            categoryName: 'Public',
+            categoryName: 'Modular',
           ),
           Category(
             imagePath: 'images/categories/Lock.png',
